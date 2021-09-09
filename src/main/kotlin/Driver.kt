@@ -1,4 +1,4 @@
-class Driver(
+open class Driver(
     var name : String,
     var age : Int
 ) {

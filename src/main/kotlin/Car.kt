@@ -1,4 +1,4 @@
-class Car(driver: Driver) :Vehicle(driver) {
+open class Car() :Vehicle() {
     var carMiles = 100
     override  fun drive(){
         if (driver == null){

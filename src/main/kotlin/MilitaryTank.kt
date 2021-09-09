@@ -1,4 +1,4 @@
-class MilitaryTank(driver:Driver):Vehicle(driver) {
+open class MilitaryTank():Vehicle() {
     var tankMiles = 2000
     override  fun drive(){
         if (driver == null){
